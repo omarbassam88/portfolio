@@ -1,0 +1,29 @@
+[20:32:49.718] Global cache location '/home/omar/.cache/typescript/4.7', safe file path '/usr/lib/node_modules/typescript/lib/typingSafeList.json', types map path /usr/lib/node_modules/typescript/lib/typesMap.json
+[20:32:49.719] Processing cache location '/home/omar/.cache/typescript/4.7'
+[20:32:49.719] Trying to find '/home/omar/.cache/typescript/4.7/package.json'...
+[20:32:49.720] Loaded content of '/home/omar/.cache/typescript/4.7/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.603"},"devDependencies":{"@types/eslint":"^8.4.5","@types/eslint-config-prettier":"^6.11.0","@types/ink-testing-library":"^1.0.1","@types/lodash":"^4.14.182","@types/node":"^18.0.0","@types/prettier":"^2.6.3","@types/prompts":"^2.0.14","@types/react":"^18.0.12","@types/react-dom":"^18.0.5","@types/styled-components":"^5.1.25"}}
+[20:32:49.720] Loaded content of '/home/omar/.cache/typescript/4.7/package-lock.json'
+[20:32:49.730] Adding entry into typings cache: 'eslint' => '/home/omar/.cache/typescript/4.7/node_modules/@types/eslint/index.d.ts'
+[20:32:49.733] Adding entry into typings cache: 'eslint-config-prettier' => '/home/omar/.cache/typescript/4.7/node_modules/@types/eslint-config-prettier/index.d.ts'
+[20:32:49.734] Adding entry into typings cache: 'ink-testing-library' => '/home/omar/.cache/typescript/4.7/node_modules/@types/ink-testing-library/index.d.ts'
+[20:32:49.736] Adding entry into typings cache: 'lodash' => '/home/omar/.cache/typescript/4.7/node_modules/@types/lodash/index.d.ts'
+[20:32:49.740] Adding entry into typings cache: 'node' => '/home/omar/.cache/typescript/4.7/node_modules/@types/node/index.d.ts'
+[20:32:49.741] Adding entry into typings cache: 'prettier' => '/home/omar/.cache/typescript/4.7/node_modules/@types/prettier/index.d.ts'
+[20:32:49.742] Adding entry into typings cache: 'prompts' => '/home/omar/.cache/typescript/4.7/node_modules/@types/prompts/index.d.ts'
+[20:32:49.745] Adding entry into typings cache: 'react' => '/home/omar/.cache/typescript/4.7/node_modules/@types/react/index.d.ts'
+[20:32:49.747] Adding entry into typings cache: 'react-dom' => '/home/omar/.cache/typescript/4.7/node_modules/@types/react-dom/index.d.ts'
+[20:32:49.748] Adding entry into typings cache: 'styled-components' => '/home/omar/.cache/typescript/4.7/node_modules/@types/styled-components/index.d.ts'
+[20:32:49.748] Finished processing cache location '/home/omar/.cache/typescript/4.7'
+[20:32:49.748] Process id: 20028
+[20:32:49.748] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[20:32:49.748] validateDefaultNpmLocation: false
+[20:32:49.748] Npm config file: /home/omar/.cache/typescript/4.7/package.json
+[20:32:49.748] Updating types-registry npm package...
+[20:32:49.749] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[20:32:51.219]     Succeeded. stdout:
+    
+    changed 1 package, and audited 21 packages in 1s
+
+found 0 vulnerabilities
+
+[20:32:51.219] Updated types-registry npm package
