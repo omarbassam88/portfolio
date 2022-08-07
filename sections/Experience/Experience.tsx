@@ -5,6 +5,38 @@ import { FadeInContainer, ExperienceListItem } from "../../components";
 import Styles from "./Styles";
 
 const Experience = () => {
+    const projects = [
+        {
+            name: "Research Connect",
+            image: "/assets/images/rescon-logo.svg",
+            link: "https://www.researchconnect.app/",
+            description: "a cross-platform PWA Funded by AGYA (Arab and German Youth Association) that aims at connecting researchers in the middle east with other researchers for collaboration as well as finding service/product suppliers relative to their needs.",
+            work: "Implemented features such as user authentication, profile creation for both the researchers and the suppliers, paper page creation for researchers, product page creation for suppliers and a messaging system was then added for users to be able to message each other."
+
+        },
+        {
+            name: "QPB CLI Tool",
+            image: "/assets/images/qpb.png",
+            link: "https://github.com/omarbassam88/qpb",
+            description: "an open source CLI application that allows to quickly build web projects using the many ready-to-go templates with the most popular frameworks whether for a front-end, back-end or a Node.js CLI application without having to write all the boilerplate, ready to start developing with basic CSS setup included.",
+            work: "Developed in JavaScript using Node.js, the  kolorist library for terminal colors, prompts for interactive user input and minimist for parsing input arguments. Planning to include frameworks in the front end such as React, Vue, Svelte(kit), Next JS, Nuxt JS, and Quasar.And for the back- end, a basic Express template app and Nest app will be available. "
+        },
+        {
+            name: "Curly Headz",
+            image: "/assets/images/curlyheadz.png",
+            link: "https://curlyheadz.com/",
+            description: "a media production company specializing in Motion Graphics and Interactive experiences.",
+            work: "Developed the website, first using WordPress deployed on c-panel on shared hosting. Converted the website to a simpler version using only HTML, and CSS using Bootstrap, and JavaScript."
+        },
+        /* {
+*     name: "Inanovations",
+*     image: "/assets/images/rokkos.png",
+*     link: "",
+*     description: "",
+*     work: ""
+* }
+ */
+    ]
     return (
         <Styles id="experience" className="experience">
             <Container maxWidth="lg">
@@ -15,96 +47,21 @@ const Experience = () => {
                         </FadeInContainer>
                     </header>
                     <List>
-                        <FadeInContainer lazyLoad>
-                            <ExperienceListItem
-                                name="Rokkos"
-                                image="/assets/images/rokkos.png"
-                                href="https://web.rokkos.app"
-                                description="Marketplace for photographers where they show, sell and deliver their photos during the event they're working. The platform also uses facial recognition to help customers find photos in which they are present."
-                                work="I led the team that created Rokkos from scratch, built the entire front-end, and helped the designers to develop several features to improve usability and user experience."
-                                stack="React.js | MobX | Material UI | SASS"
-                                width={110}
-                                height={59}
-                            />
-                        </FadeInContainer>
+                        {projects.map(project =>
+                            <FadeInContainer lazyLoad>
+                                <ExperienceListItem
+                                    name={project.name}
+                                    image={project.image}
+                                    href={project.link}
+                                    description={project.description}
+                                    work={project.work}
+                                    stack="React.js | MobX | Material UI | SASS"
+                                    width={110}
+                                    height={59}
+                                />
+                            </FadeInContainer>
+                        )}
 
-                        <FadeInContainer lazyLoad>
-                            <ExperienceListItem
-                                name="Engie TAG"
-                                image="/assets/images/tag.png"
-                                href="https://ntag.com.br"
-                                description="Transportadora Associada de Gás S.A. (TAG) operates in the natural gas transportation segment through gas pipelines. TAG owns and manages a significant portion of Brazil's natural gas transport assets, distributed among the North, Northeast, and Southeast regions."
-                                work="I developed the front-end of TAG's institutional website taking into account the best SEO practices and following Engie's style guide."
-                                stack="WordPress | SASS"
-                                width={110}
-                                height={29}
-                            />
-                        </FadeInContainer>
-
-                        <FadeInContainer lazyLoad>
-                            <ExperienceListItem
-                                name="Let's Hike"
-                                image="/assets/images/lets-hike.webp"
-                                href="https://play.google.com/store/apps/details?id=br.com.floripahike.app&hl=pt_BR&gl=US"
-                                description="Let's Hike is a mobile application that offers lots of information about the natural environment of Florianópolis and the region, guiding users to find support and walk the trails safely."
-                                work="I participated in the construction of the Let's Hike mobile app and helped the team improve several usability and performance features of the application."
-                                stack="React Native | Redux | Native Base"
-                                width={110}
-                                height={110}
-                            />
-                        </FadeInContainer>
-
-                        <FadeInContainer lazyLoad>
-                            <ExperienceListItem
-                                name="Unne"
-                                image="/assets/images/unne.png"
-                                href="https://app.unnegestao.com.br"
-                                description="Platform used for analysis and management of growth strategies for small and medium businesses."
-                                work="I developed the front-end of Unne's progressive web app and helped the team identify several improvements that should be applied throughout this process."
-                                stack="Vue.js | Quasar Framework | SASS"
-                                width={110}
-                                height={40}
-                            />
-                        </FadeInContainer>
-
-                        <FadeInContainer lazyLoad>
-                            <ExperienceListItem
-                                name="Turno Inverso"
-                                image="/assets/images/turno-inverso.png"
-                                href="https://play.google.com/store/apps/details?id=br.com.turnoinverso.aluno"
-                                description="Turno Inverso is an after-school activities platform for parents and guardians who want to explore their children's interests."
-                                work="I led the team that built the Turno Inverso mobile app and developed much of the front-end."
-                                stack="React Native | MobX | Native Base"
-                                width={110}
-                                height={110}
-                            />
-                        </FadeInContainer>
-
-                        <FadeInContainer lazyLoad>
-                            <ExperienceListItem
-                                name="We Play"
-                                image="/assets/images/we-play.png"
-                                href="https://play.google.com/store/apps/details?id=br.com.w16.letsplayapp"
-                                description="A platform that allows teachers and arenas to manage classes and students in real-time, making life easier for those who practice sports."
-                                work="I was part of the team that created and developed We Play."
-                                stack="React Native | MobX | Native Base"
-                                width={110}
-                                height={110}
-                            />
-                        </FadeInContainer>
-
-                        <FadeInContainer lazyLoad>
-                            <ExperienceListItem
-                                name="Plastubos"
-                                image="/assets/images/plastubos.png"
-                                href="http://plastubos.com.br"
-                                description="A manufacturer of pipes and hydraulic connections present in the Brazilian market for over 20 years."
-                                work="I was part of the team that built the company institutional website and built much of the front-end."
-                                stack="WordPress | Bootstrap | SASS"
-                                width={110}
-                                height={110}
-                            />
-                        </FadeInContainer>
                     </List>
                 </div>
             </Container>

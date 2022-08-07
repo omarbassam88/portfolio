@@ -13,6 +13,7 @@ const Styles = styled(Section)`
   .buttons {
     margin-top: 1rem;
     display: flex;
+  flex-wrap: wrap;
     justify-content: left;
     gap: 2rem;
 
@@ -35,7 +36,7 @@ const Styles = styled(Section)`
 
     h1,
     h2 {
-      font-size: clamp(2rem, 50vw, 6rem);
+      font-size: clamp(2rem, 50vw, 5rem);
       font-weight: 800;
       line-height: 1;
     }

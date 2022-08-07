@@ -24,6 +24,7 @@ const Styles = styled(Button)<CustomButtonProps>`
   }
 
   .children {
+padding: 0.5rem;
     z-index: 1;
     background: linear-gradient(
       94.23deg,

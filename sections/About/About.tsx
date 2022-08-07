@@ -38,14 +38,15 @@ const About = () => {
                             </FadeInContainer>
                             <FadeInContainer lazyLoad>
                                 <ul className="about__skills">
-                                    <li>JavaScript (ES6+)</li>
+                                    <li>JavaScript</li>
                                     <li>TypeScript</li>
+                                    <li>Vue.js</li>
                                     <li>React.js</li>
-                                    <li>React Native</li>
-                                    <li>Next.js</li>
+                                    <li>Python</li>
+                                    <li>Svelte</li>
                                     <li>Node.js</li>
-                                    <li>Styled Components</li>
-                                    <li>SASS</li>
+                                    <li>Express.js</li>
+                                    <li>Clojure(Script)</li>
                                 </ul>
                             </FadeInContainer>
                         </div>
