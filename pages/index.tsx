@@ -37,9 +37,9 @@ export async function getServerSideProps() {
             "StoreLocator",
             "pisa-data-viz",
             "tmdb-movies",
-            "us-bikeshare",
             "portfolio",
-            "connect-four"
+            "connect-four",
+            "connect4-clj"
         ];
 
         const filteredRepositories = data.filter(({ name }: Repository) =>

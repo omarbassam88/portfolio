@@ -41,7 +41,7 @@ const Hero = () => {
                     <FadeInContainer delay={1750}>
                         <h4>
                             I am a Full-stack Web Developer who is passionate about
-                            learning and working with new technologies.
+                            learning and working with new technologies with special interest in Functional Programming and Open Source.
                         </h4>
                     </FadeInContainer>
                     <div className="buttons">

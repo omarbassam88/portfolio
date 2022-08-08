@@ -29,8 +29,9 @@ const About = () => {
                             <FadeInContainer lazyLoad>
                                 <p>
                                     A Software Developer with 3 years of work experience.
-                                    Highly skilled in Vue JS, Node.js, Python, HTML, JavaScript, Quasar Framework, and Linux.
+                                    Highly skilled in Vue.js, Node.js, Python, HTML/CSS, JavaScript/TypeScript, and Linux.
                                     Passionate about building tools and enthusiastic about sharing knowledge and learning new technologies.
+                                    I also have experience in Data Analysis and Visualization using Python.
                                 </p>
                             </FadeInContainer>
                             <FadeInContainer lazyLoad>

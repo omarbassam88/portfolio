@@ -8,7 +8,7 @@ const Footer = () => {
         <Styles className="footer">
             <Social />
             <Container>
-                {/* <div>Built by Nathan S. Santos</div> */}
+                {/* <div>Omar Bassam</div> */}
             </Container>
         </Styles>
     );

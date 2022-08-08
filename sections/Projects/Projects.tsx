@@ -58,7 +58,7 @@ const Projects = (props: ProjectsProps) => {
             )}
           </div>
           <FadeInContainer lazyLoad>
-            <Button href="https://github.com/nathanssantos?tab=repositories">
+            <Button href="https://github.com/omarbassam88?tab=repositories">
               See More
             </Button>
           </FadeInContainer>

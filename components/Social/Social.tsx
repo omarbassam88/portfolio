@@ -1,6 +1,7 @@
 import IconButton from "@mui/material/IconButton";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import TwitterIcon from '@mui/icons-material/Twitter';
+import LanguageIcon from '@mui/icons-material/Language';
 import { FadeInContainer } from "..";
 import Styles from "./Styles";
 
@@ -29,6 +30,18 @@ const Social = () => {
                             rel="noreferrer"
                         >
                             <TwitterIcon />
+                        </IconButton>
+                    </FadeInContainer>
+
+                    {/* Website */}
+                    <FadeInContainer delay={1900}>
+                        <IconButton
+                            component="a"
+                            href="https://ob88.dev"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <LanguageIcon />
                         </IconButton>
                     </FadeInContainer>
                 </div>
