@@ -40,7 +40,7 @@ const Experience = () => {
 *     work: ""
 * }
  */
-    ]
+    ];
     return (
         <Styles id="experience" className="experience">
             <Container maxWidth="lg">

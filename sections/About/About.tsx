@@ -28,8 +28,8 @@ const About = () => {
                         <div className="about__text">
                             <FadeInContainer lazyLoad>
                                 <p>
-                                    A Software Developer with 3 years of work experience.
-                                    Highly skilled in Vue.js, Node.js, Python, HTML/CSS, JavaScript/TypeScript, and Linux.
+                                    A Software Developer with 4 years of work experience.
+                                    Highly skilled in Vue.js, Node.js, Python, HTML/CSS, JavaScript/TypeScript and Linux.
                                     Passionate about building tools and enthusiastic about sharing knowledge and learning new technologies.
                                     I also have experience in Data Analysis and Visualization using Python.
                                 </p>
